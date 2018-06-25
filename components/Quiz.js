@@ -38,7 +38,7 @@ class Quiz extends Component {
   }
 
   reset() {
-    this.setState({ correctAnswers: 0, currentQuestion: 0, isAnswer: false })
+    this.setState({ correctAnswers: 0, currentQuestion: 0, showAnswer: false })
   }
 
   handleResponse(answer) {
